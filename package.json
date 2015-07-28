@@ -16,9 +16,9 @@
     "url": "https://github.com/ludoblues/WAC/issues"
   },
   "dependencies": {
-    "@ludoblues/front": "^0.0.1",
-    "@ludoblues/contest": "^0.0.1",
-    "@ludoblues/jobs": "^0.0.1"
+    "@ludoblues/front": "https://github.com/ludoblues/wac-front.git",
+    "@ludoblues/contest": "https://github.com/ludoblues/wac-contest.git",
+    "@ludoblues/jobs": "https://github.com/ludoblues/wac-jobs.git"
   },
   "homepage": "https://github.com/ludoblues/WAC#readme"
 }
