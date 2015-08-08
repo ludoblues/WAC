@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "start": "node --harmony_arrow_functions --harmony ./node_modules/@ludoblues/front/ && node --harmony_arrow_functions --harmony ./node_modules/@ludoblues/contest/ && node --harmony_arrow_functions --harmony ./node_modules/@ludoblues/jobs/",
-    "test": "mocha test --harmony_arrow_functions --harmony --recursive tests/"
+    "start": "node --harmony_arrow_functions --harmony index.js",
+    "test": "mocha test --harmony_arrow_functions --harmony --recursive tests/",
+    "coverage": "node --harmony_arrow_functions --harmony ./node_modules/istanbul/lib/cli.js  cover _mocha -- -u exports --recursive /tests"
   },
   "repository": {
     "type": "git",
